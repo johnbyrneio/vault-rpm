@@ -1,0 +1,9 @@
+/var/log/vault {
+    daily
+    missingok
+    rotate 7
+    compress
+    copytruncate
+    notifempty
+    create 600  vault vault
+}
